@@ -1,0 +1,56 @@
+[window]
+opacity = 0.92
+decorations = "full"
+padding = { x = 10, y = 10 }
+
+[font]
+size = 12
+
+[font.normal]
+family = "Hack Nerd Font"
+style = "Regular"
+
+[font.bold]
+family = "Hack Nerd Font"
+style = "Bold"
+
+[font.italic]
+family = "Hack Nerd Font"
+style = "Italic"
+
+[cursor]
+style = "Beam"
+vi_mode_style = "Block"
+
+[colors.primary]
+background = "0x0a0f1c"
+foreground = "0xcfd7ff"
+
+[colors.cursor]
+text = "0x0a0f1c"
+cursor = "0x00eaff"
+
+[colors.selection]
+text       = "0x0a0f1c"
+background = "0x8c3cff"
+
+[colors.normal]
+black   = "0x0a0f1c"
+red     = "0xff2a2a"
+green   = "0x00eaff"
+yellow  = "0xffdf6e"
+blue    = "0x8c3cff"
+magenta = "0xff008c"
+cyan    = "0x00eaff"
+white   = "0xcfd7ff"
+
+[colors.bright]
+black   = "0x142034"
+red     = "0xff4d4d"
+green   = "0x5affff"
+yellow  = "0xfff38c"
+blue    = "0xa967ff"
+magenta = "0xff7bcb"
+cyan    = "0x6ee7ff"
+white   = "0xffffff"
+
