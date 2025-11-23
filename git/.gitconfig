@@ -1,0 +1,29 @@
+# --- Configuración Global (Base) ---
+# Esto se usa por defecto si no estás ni en Personal ni en Trabajo
+[user]
+    name = Santiago Arias
+    email = santiagoarias.personal@gmail.com  # Email de "fallback" (respaldo)
+
+[core]
+    editor = nano        # O tu editor preferido
+    autocrlf = input     # Crucial en Linux
+
+[init]
+    defaultBranch = main
+
+[alias]
+    st = status
+    co = checkout
+    br = branch
+    ci = commit
+    lg = log --oneline --graph --decorate --all
+
+# --- Configuración Condicional ---
+
+# Entorno Personal
+[includeIf "gitdir/i:/home/tisan/Dev/Personal/"]
+    path = /home/tisan/.gitconfig-personal
+
+# Entorno Trabajo
+[includeIf "gitdir/i:/home/tisan/Dev/Trabajo/"]
+    path = /home/tisan/.gitconfig-trabajo
